@@ -12,10 +12,10 @@ function Contact() {
     e.preventDefault();
 
     emailjs.sendForm(
-      process.env.SERVICE,
-      process.env.TEMPLATE,
+      "service_cjplm9l",
+      "template_inejfac",
       form.current,
-      process.env.CODE
+      "6q8yTHhqpoQYExIHO"
     );
     e.target.reset();
   };
